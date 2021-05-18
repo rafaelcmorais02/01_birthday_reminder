@@ -10,7 +10,7 @@ function App() {
         {people.length} birthdays today
         <List people={people}></List>
         <button onClick={()=>{
-          console.log("you clicked me")
+         setPeople([])
         }}>clear all</button>
       </h3>
       </section>
